@@ -12,7 +12,7 @@ from nltk.corpus import stopwords
 # nltk.download('stopwords')
 # nltk.download('wordnet')
 #%%
-root_dir = "C:/Users/marti/OneDrive/Thesis/Datasets/"
+root_dir = "..."
 df_no_preprocessing = pd.read_csv(filepath_or_buffer= root_dir + "Intermediate_output/final_dataset_right_MeSH_extended.csv")
 df_no_preprocessing = df_no_preprocessing.iloc[0:50, :]
 df_BOW = pd.read_csv(filepath_or_buffer= root_dir + "Intermediate_output/BOW_applied_to_mini_dataset.csv")
