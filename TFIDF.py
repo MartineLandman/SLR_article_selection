@@ -6,7 +6,7 @@ import nltk
 import math
 
 #%% Importing data
-root_dir = "C:/Users/marti/OneDrive/Thesis/Datasets/"
+root_dir = "..."
 dataframe = pd.read_csv(filepath_or_buffer= root_dir + "Intermediate_output/NLP_dataset_with_prefixes.csv")
 dataframe = dataframe.iloc[0:50, :]
 bow_dataframe = pd.read_csv(filepath_or_buffer= root_dir + "Intermediate_output/BOW_applied_to_mini_dataset.csv")
