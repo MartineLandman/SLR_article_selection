@@ -6,7 +6,7 @@ from imblearn.over_sampling import RandomOverSampler
 from imblearn.over_sampling import SMOTE
 
 #%% Importing data and setting features
-root_dir = "C:/Users/marti/OneDrive/Thesis/Datasets/"
+root_dir = "..."
 initial_df = pd.read_csv(filepath_or_buffer= root_dir + "Intermediate_output/BOW_applied_to_mini_dataset.csv")
 
 #%% RUS: Random undersampling
