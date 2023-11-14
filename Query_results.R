@@ -4,7 +4,7 @@ library(stringr)
 library(textcat)
 library(dplyr)
 library(tidyr)
-my_api_key <-  "da61fa20ee9ea3c1abf2ced18da6c4fa8909"
+my_api_key <-  "..."
 current_query <- '("diabetes mellitus"[MeSH Terms] OR ("diabetes"[All Fields] AND "mellitus"[All Fields]) OR "diabetes mellitus"[All Fields] OR "diabetes"[All Fields]) AND (systematic[sb] OR Meta-Analysis[ptyp]) AND ( "1900/01/01"[PDAT] : "2019/10/01"[PDAT] ) AND ("humans"[MeSH Terms]) AND (("vegetables"[MeSH Terms] OR "vegetables"[All Fields]) OR "vegetable"[All Fields])'
 current_query <- '("diabetes mellitus"[MeSH Terms] OR ("diabetes"[All Fields] AND "mellitus"[All Fields]) OR "diabetes mellitus"[All Fields] OR "diabetes"[All Fields]) AND (systematic[sb] OR Review[ptyp] OR Meta-Analysis[ptyp] OR Clinical Trial[ptyp] OR Randomized Controlled Trial[ptyp] OR Controlled Clinical Trial[ptyp] OR Observational Study[ptyp](=) AND ( "2014/10/01"[PDAT] : "2019/10/01"[PDAT] ) AND ("humans"[MeSH Terms]) AND ("iron"[MeSH Terms] OR "iron"[All Fields]))'
 
