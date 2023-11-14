@@ -5,7 +5,7 @@ library(textcat)
 library(dplyr)
 library(tidyr)
 test_query_potato <- '("diabetes mellitus"[MeSH Terms] OR ("diabetes"[All Fields] AND "mellitus"[All Fields]) OR "diabetes mellitus"[All Fields] OR "diabetes"[All Fields]) AND (systematic[sb] OR Review[ptyp] OR Meta-Analysis[ptyp] OR Clinical Trial[ptyp] OR Randomized Controlled Trial[ptyp] OR Controlled Clinical Trial[ptyp] OR Observational Study[ptyp](=) AND ( "2014/10/01"[PDAT] : "2019/10/01"[PDAT] ) AND ("humans"[MeSH Terms]) AND ("solanum tuberosum"[MeSH Terms] OR ("solanum"[All Fields] AND "tuberosum"[All Fields]) OR "solanum tuberosum"[All Fields] OR "potato"[All Fields]))'
-my_api_key = "da61fa20ee9ea3c1abf2ced18da6c4fa8909"
+my_api_key = "..."
 setwd("C:/Users/marti/OneDrive/Thesis/Datasets")
 
 ##############################################################################
