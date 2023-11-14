@@ -12,7 +12,7 @@ ps = PorterStemmer()
 
 
 #%% Importing data
-root_dir = "C:/Users/marti/OneDrive/Thesis/Datasets/"
+root_dir = "..."
 df_articles = pd.read_csv(filepath_or_buffer= root_dir + "Intermediate_output/final_dataset_right_MeSH_extended.csv")
 df_articles = df_articles.iloc[0:20, :]
 #%% Tokenization, removal of non-alphabetic characters, changing to lowercase, stopword removal and stemming
