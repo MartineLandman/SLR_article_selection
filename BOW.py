@@ -3,7 +3,7 @@ import pandas as pd
 
 
 #%% Importing data
-root_dir = "C:/Users/marti/OneDrive/Thesis/Datasets/"
+root_dir = "..."
 dataframe = pd.read_csv(filepath_or_buffer= root_dir + "Intermediate_output/NLP_dataset_with_prefixes.csv")
 dataframe = dataframe.iloc[0:500, :]  # so there are also a few relevant ones
 #%% Function to generate BOW
