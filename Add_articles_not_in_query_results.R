@@ -4,7 +4,7 @@ library(stringr)
 library(genTS)
 library(dplyr)
 library(tidyr)
-my_api_key = "da61fa20ee9ea3c1abf2ced18da6c4fa8909"
+my_api_key = "..."
 df_all_articles <- read.table("./Query_output_right_MeSH/all_queries_combined.csv")
 df_all_pmid <- read.table ("./Intermediate_output/all_pmid.csv")
 all_pub_types <- as.list(read_lines("./Query_output_overig/all_pub_types.txt"))
