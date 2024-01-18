@@ -1,6 +1,7 @@
 Contents:
 
 - Data cleaning performed in R:
+  (These scripts require an API key. This can be requested through an NCBI account at the bottom of the 'Account Settings' page, at 'API Key management')
   * Recreation_dataset.R:  Contains the steps (1) retrieval of articles based on queries (2) retrieval of relevant articles from EndNote library and (3) combining these dataframes.
     The result is a dataframe with the PMID, title, abstract, publication type, MeSH terms and relevance (0 or 1) of each article from the query results.
   * Query_results.R: Script used to apply step 2 to all 53 queries and finally combine these into one dataframe (result can be loaded into Recreation_dataset.R)
